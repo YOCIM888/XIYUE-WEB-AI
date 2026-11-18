@@ -1,0 +1,11 @@
+# robots.txt - XIYUE AI (https://xiyue.yocim.top)
+
+# 允许所有搜索引擎抓取全站
+User-agent: *
+Allow: /
+
+# 浏览器扩展分发包无需被搜索引擎索引
+Disallow: /browser-extension.zip
+
+# 站点地图地址（帮助搜索引擎发现全部页面）
+Sitemap: https://xiyue.yocim.top/sitemap.xml

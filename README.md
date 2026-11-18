@@ -79,7 +79,7 @@ ai-chat/
 │  └─ router/           # Routes
 ├─ tests/               # Vitest unit tests
 ├─ extension/           # Chrome browser-control extension
-├─ public/              # Icons, PWA manifest, Service Worker
+├─ public/              # Icons, PWA manifest, Service Worker, robots.txt, sitemap.xml
 └─ .github/workflows/   # Automatic GitHub Pages deployment
 ```
 
@@ -107,3 +107,7 @@ The dev/preview server and build output both expose `/browser-extension.zip`. Yo
 - Reading linked pages depends on the `/api/read-link` middleware provided by the dev/preview server. On a purely static deployment it falls back to a direct fetch, which is subject to the target site's CORS policy.
 - Scanned PDFs do not support text extraction; legacy `.doc` / `.xls` files must be saved as `.docx` / `.xlsx` first.
 - The UI is Chinese-only, since the project is intended for personal use.
+
+## License
+
+[MIT](LICENSE) © 2026 Yocim

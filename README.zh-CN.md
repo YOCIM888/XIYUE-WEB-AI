@@ -79,7 +79,7 @@ ai-chat/
 │  └─ router/           # 路由
 ├─ tests/               # Vitest 单元测试
 ├─ extension/           # Chrome 浏览器控制扩展
-├─ public/              # 图标、PWA manifest、Service Worker
+├─ public/              # 图标、PWA manifest、Service Worker、robots.txt、sitemap.xml
 └─ .github/workflows/   # GitHub Pages 自动部署
 ```
 
@@ -107,3 +107,7 @@ ai-chat/
 - 链接正文读取依赖开发 / 预览服务器的 `/api/read-link` 中间件；纯静态部署时会回退为直接抓取，受目标站点 CORS 限制。
 - 扫描版 PDF 暂不支持文本提取；旧版 `.doc` / `.xls` 需先另存为 `.docx` / `.xlsx`。
 - 项目为个人自用定位，界面文案仅提供中文。
+
+## 许可证
+
+[MIT](LICENSE) © 2026 Yocim
